@@ -15,7 +15,7 @@
   };
   // dialog text
   var text1 =
-    "they thought they do not know anything but,\n" +
+    "they thought they didn't know anything but,\n" +
     "they made the most" +
     " amazing videoGames ever.";
   var text2 =

@@ -26,6 +26,14 @@ html {
   }
 }
 
+.bliss {
+  display: none;
+  position: absolute;
+  right: 35%;
+  top: 30%;
+  animation: logo-bob 3s infinite;
+}
+
 .close {
   /* animation: dialog-grow-out 1s linear forwards; */
   transform: scaleY(0);

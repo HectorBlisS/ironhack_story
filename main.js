@@ -32,6 +32,7 @@
   var $theEnd = $(".the-end");
   var $audio = $("audio");
   var $bliss = $(".bliss");
+  var $tobe = $(".tobe");
 
   // cache audio elements
   var music = document.getElementById("music");
@@ -145,6 +146,7 @@
   function showTheEnd() {
     $theEnd.show();
     $bliss.show();
+    $tobe.show();
   }
 
   function logoFlyUp() {

@@ -26,12 +26,18 @@ html {
   }
 }
 
+.tobe {
+  display: none;
+  animation: fade-in 4s 2s steps(4);
+  font-size: 2rem;
+}
+
 .bliss {
   display: none;
   position: absolute;
   right: 35%;
   top: 30%;
-  animation: logo-bob 3s infinite;
+  animation: logo-bob 3s 4s infinite;
 }
 
 .close {

@@ -17,12 +17,12 @@ html {
 }
 @media screen and (min-width: 768px) and (min-height: 540px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 832px) and (min-height: 620px) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -37,7 +37,7 @@ html {
   position: absolute;
   right: 35%;
   top: 30%;
-  animation: logo-bob 3s 4s infinite;
+  animation: fade-in 4s steps(4), logo-bob 6s 1s ease infinite;
 }
 
 .close {
@@ -61,9 +61,9 @@ html {
   display: none;
   position: absolute;
   top: calc(75% - 8.5rem);
-  left: calc(32% - 24rem);
-  width: 90rem;
-  height: 12rem;
+  left: calc(50% - 32rem);
+  width: 64rem;
+  height: 17rem;
   padding: 2rem;
   border: solid 0.5rem #3db2f6;
   color: #000;
@@ -83,7 +83,7 @@ html {
   width: calc(100% - 6rem);
   margin: 0 0 2rem;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.5;
   animation: fade-in 4s steps(4);
 }
@@ -133,9 +133,9 @@ html {
 .logo {
   display: none;
   position: absolute;
-  top: 25%;
-  left: 45%;
-  margin: -200px 0 0 -200px;
+  top: 5%;
+  left: calc(50% - 200px);
+  margin: 0 auto;
   animation: fade-in 4s steps(4), logo-bob 6s ease infinite;
 }
 

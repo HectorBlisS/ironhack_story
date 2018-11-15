@@ -15,12 +15,13 @@
   };
   // dialog text
   var text1 =
-    "they thought they didn't know anything but,\n" +
-    "they made the most" +
-    " amazing videoGames ever.";
+    "they thought they didn't know\n" +
+    "anything but, they made the\nmost " +
+    "amazing videoGames ever.";
   var text2 =
-    "And now they are ready to fly among The\n" +
-    "stars, to backend and beyond...";
+    "And now they are ready \n" +
+    "to fly among The stars,\n" +
+    "to backend and beyond...";
 
   // cache jQuery wrappers
   var $body = $("body");
